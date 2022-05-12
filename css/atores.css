@@ -1,0 +1,32 @@
+.actor-card {
+    display: inline-block;
+    overflow-y: scroll;
+
+    margin: 2vh;
+    
+    width: 35vh;
+    max-height: 60vh;
+
+    padding: 2vh;
+    border: 1px solid white;
+    border-radius: 2vh;
+}
+
+.actor-card img {
+    width: 25vh;
+}
+
+.actor-card h4 {
+    line-height: 0%;
+}
+
+.actor-card h5 {
+    line-height: 0%;
+    color: lightblue;
+}
+
+.actor-card p {
+    font-size: 2vh;
+    color: rgb(197, 197, 197);
+    overflow-y: scroll;
+}
