@@ -29,8 +29,7 @@ function draw() {
     ctx.fillStyle = '#0f0';
     ctx.fillText(text, i * fontSize, drops[i] * fontSize);
     drops[i]++;
-    if (drops[i] * fontSize < canvas.height && Math.random() > .95) {
-      ctx.fillText(text, i * fontSize, drops[i] * fontSize);
+    if (drops[i] * fontSize < canvas.height * 100 && Math.random() > .95) {
       drops[i] = 0;
     }
   }

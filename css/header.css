@@ -5,13 +5,6 @@
   src: url("../fonts/matrix.ttf") format("truetype");
 }
 
-/* ANIMATED BACKGROUND */
-
-* {
-  box-sizing: border-box;
-  font-family: "JetBrains Mono", sans-serif;
-}
-
 /* HEADER */
 
 canvas {
@@ -23,6 +16,7 @@ canvas {
 
 header {
   position: absolute;
+
   left: 0;
   top: 0;
 
@@ -44,12 +38,13 @@ nav {
   height: 8vh;
   padding-left: 5vh;
 
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.7);
   transition: 0.2s all;
+  z-index: 9999;
 }
 
 nav.scrolled {
-  height: 5vh;
+  height: 6vh;
   background-color: black;
 }
 
@@ -70,18 +65,23 @@ nav ul {
 
 nav li {
   margin-left: 4vh;
-  font-size: 2.5vh;
 
-  transition: 0.2s all;
-}
-
-nav li:hover {
-  transform: scale(1.1);
 }
 
 nav a {
   color: white;
   text-decoration: none;
+
+  font-size: 2.5vh;
+  padding: 1vh;
+  border-radius: 1vh;
+
+  cursor: pointer;
+  transition: 0.2s all;
+}
+
+nav a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 /* MAIN-WRAPPER */
@@ -108,4 +108,13 @@ nav a {
   font-size: 18vh;
   letter-spacing: 5px;
   line-height: 2vh;
+}
+
+.header-container {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.307);
+  border: 1px solid white;
+  border-radius: 1vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
