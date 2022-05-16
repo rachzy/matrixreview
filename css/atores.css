@@ -1,3 +1,7 @@
+* {
+    font-family: "JetBrains Mono", sans-serif;
+}
+
 .actor-card {
     display: inline-block;
     overflow-y: scroll;
@@ -14,15 +18,30 @@
 
 .actor-card img {
     width: 25vh;
+    transition: 0.2s all;
+}
+
+.actor-card img:hover {
+    transform: scale(1.05);
 }
 
 .actor-card h4 {
     line-height: 0%;
+    transition: 0.2s all;
+}
+
+.actor-card h4:hover {
+    color: rgb(10, 192, 10);
+    text-decoration: underline;
 }
 
 .actor-card h5 {
     line-height: 0%;
     color: lightblue;
+}
+
+.actor-card a {
+    text-decoration: none;
 }
 
 .actor-card p {
