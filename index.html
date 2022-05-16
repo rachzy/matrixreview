@@ -1,49 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/header.css" />
-  <link rel="stylesheet" href="css/body.css" />
-  <title>Matrix Review</title>
-</head>
-<header id="home">
-  <canvas></canvas>
-  <nav>
-    <h1>Matrix</h1>
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="atores.html">Atores</a></li>
-      <li><a href="#contato">Contato</a></li>
-    </ul>
-  </nav>
-  <div class="main-wrapper">
-    <div class="text-container">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/body.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <title>Matrix Review</title>
+  </head>
+  <header id="home">
+    <canvas style="position: absolute"></canvas>
+    <nav>
       <h1>Matrix</h1>
-    </div>
-  </div>
-  <section class="small-section">
-    <div class="normal-content header-container">
-      <img src="imgs/matrix-poster.webp" />
-      <div>
-        <p>
-          O que você faria se tivesse a chance de escolher entre conhecer a
-          verdade ou voltar a viver em uma realidade simulada?
-        </p>
-        <p>
-          Curioso? Você procura <b>MATRIX</b>. É um filme de ficção científica
-          muito famoso e é considerado um clássico imperdível por muitos
-          amantes do cinema
-        </p>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="atores.html">Atores</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+    <div class="main-wrapper">
+      <div class="text-container">
+        <h1>Matrix</h1>
       </div>
+      <section class="normal-section column">
+        <div class="normal-content header-container">
+          <img src="imgs/matrix-poster.webp" />
+          <div>
+            <p>
+              O que você faria se tivesse a chance de escolher entre conhecer a
+              verdade ou voltar a viver em uma realidade simulada?
+            </p>
+            <p>
+              Curioso? Você procura <b>MATRIX</b>. É um filme de ficção
+              científica muito famoso e é considerado um clássico imperdível por
+              muitos amantes do cinema
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="normal-section space-between">
+        <div class="small-content header-container column all-center">
+          <button class="about-button" id="sinopse">Sinopse</button>
+          <button class="about-button" id="diretor">Direção</button>
+          <button class="about-button" id="lancamento">Lançamento</button>
+          <button class="about-button" id="recepcao">Recepção</button>
+        </div>
+        <div class="bigger-content header-container column all-center">
+          <div id="sinopse" class="about-content active">
+            <div class="text-content">
+              <h2>Sinopse</h2>
+              <p>
+                Em um futuro próximo, Thomas Anderson (Keanu Reeves), um jovem
+                programador de computador que mora em um cubículo escuro, é
+                atormentado por estranhos pesadelos nos quais encontra-se
+                conectado por cabos e contra sua vontade, em um imenso sistema
+                de computadores do futuro. Em todas essas ocasiões, acorda
+                gritando no exato momento em que os eletrodos estão para
+                penetrar em seu cérebro. À medida que o sonho se repete,
+                Anderson começa a ter dúvidas sobre a realidade. Por meio do
+                encontro com os misteriosos Morpheus (Laurence Fishburne) e
+                Trinity (Carrie-Anne Moss), Thomas descobre que é, assim como
+                outras pessoas, vítima do Matrix, um sistema inteligente e
+                artificial que manipula a mente das pessoas, criando a ilusão de
+                um mundo real enquanto usa os cérebros e corpos dos indivíduos
+                para produzir energia. Morpheus, entretanto, está convencido de
+                que Thomas é Neo, o aguardado messias capaz de enfrentar o
+                Matrix e conduzir as pessoas de volta à realidade e à liberdade.
+                <a href="https://www.adorocinema.com/filmes/filme-19776/"
+                  ><span style="font-weight: bold">Saiba Mais</span></a
+                >
+              </p>
+            </div>
+          </div>
+          <div id="diretor" class="about-content">
+            <div class="text-content">
+              <h2>Direção</h2>
+              <p>
+                A direção do filme foi feita pelas irmãs
+                <a href="https://en.wikipedia.org/wiki/The_Wachowskis"
+                  >Wachowski</a
+                >
+              </p>
+            </div>
+          </div>
+          <div id="lancamento" class="about-content">
+            <div class="text-content">
+              <h2>Lançamento</h2>
+              <p>
+                Nos <b>EUA</b>, o filme foi lançado em
+                <b>31 de Março de 1999</b>
+              </p>
+              <p>
+                No <b>Brasil</b>, o filme foi lançado em
+                <b>21 de Maio de 1999</b>
+              </p>
+            </div>
+          </div>
+          <div id="recepcao" class="about-content">
+            <div class="text-content">
+              <h2>Recepção</h2>
+              <p>
+                <b>Matrix</b> acumulou US$ 171.479.930 nos Estados Unidos e
+                Canadá e US$ 292.037.453 em outros países, perfazendo um total
+                mundial de <b>US$ 463.517.383</b> de bilheteria. <br />
+                O filme foi a quarta maior bilheteria mundial de 1999.
+              </p>
+              <h2>Prêmios</h2>
+              <table>
+                  <th>
+                    <td>2020</td>
+                  </th>
+                <tr>
+                  <td>Melhor montagem</td>
+                  <td>Melhor mixagem de som</td>
+                  <td>Melhor edição de som</td>
+                  <td>Melhores efeitos visuaiss</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
-    <div class="small-content header-container"></div>
-  </section>
-</header>
-<script src="js/matrixRainEffect.js"></script>
-<script src="js/scroller.js"></script>
+  </header>
+  <footer> 
+    <div id="Title">  
+        <h1> Integrantes </h1> 
+    </div>
+    <div id="Sec">
+        <div id="St"> 
+            <a href="https://github.com/Isac471">Isac</a> <br> <br> 
+            <a href="https://github.com/Murilo2nobel">Murilo</a> <br> <br>
+            <a href="https://github.com/rachzy">Pedro Henrique</a>  <br> 
+        </div>
+        <div id="Nd">
+            <a href="https://github.com/Rafael-Duarte-Silva">Rafael</a>  <br> <br>
+            <a href="https://github.com/Raul-Brasiel">Raul</a>  <br> <br>
+            <a href="https://github.com/Rodolfo-oBST">Rodolfo</a>  <br> 
+        </div>    
+    </div> 
 
+    
+</footer>
+  <script src="js/matrixRainEffect.js"></script>
+  <script src="js/scroller.js"></script>
+  <script src="js/aboutButtons.js"></script>
 </html>
-<!--          . -->
